@@ -1,0 +1,47 @@
+.w-hp {
+  height: 320px;
+  /* background-color: pink; */
+  padding-top: 80px;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 15px;
+  color: #333;
+}
+
+.w-hp .w-hps {
+  line-height: 60px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.w-hp button {
+  width: 104px;
+  height: 40px;
+  border-radius:10px;
+  border: 1px solid #666666;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0 15px;
+  line-height: 20px;
+  font-size: 17px;
+  color: #666666;
+}
+.w-hp button:hover {
+  border: 1px solid  #cfa972;
+}
+.w-hp button:hover a{
+  color: #cfa972;
+}
+#bub {
+  background: #cfa972;
+  color: #fff;
+}
+#bub:hover {
+  background-color: #fff;
+  color: #cfa972;
+  border: 1px solid  #cfa972;
+}
+.w-photo img {
+  width: 100%;
+}
+

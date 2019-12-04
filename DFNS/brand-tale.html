@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>蒂凡尼斯.女王-官方网站</title>
+  <meta name="keywords" content="上海婚纱影楼,上海婚纱摄影工作室,婚纱照,婚纱摄影,上海婚纱摄影推荐,上海婚纱摄影价格,上海婚纱影楼哪家好,婚纱照价格" />
+    <meta name="description"
+        content="上海女王驾到婚纱摄影提供上海婚纱摄影推荐，上海婚纱摄影工作室排名，轻松比较上海婚纱摄影哪家好，上海婚纱摄影、婚纱影楼、婚纱照价格，折扣优惠信息，让你享受超优质的婚纱摄影服务！" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="css/brand-tale.css">
+  
+  
+</head>
+<body>
+  <header class="queen-header"></header>
+    <!-- 公共轮播图 -->
+    <div class="queen-banner banner">
+        <div class="swiper-container swiper-container-1">
+            <!-- 主焦点图 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-1"><a href="javascript:;vold(0)"></a><img
+                        class="w-img" src="picture/5dad56e5590cc.jpg"></a></div>
+                <div class="swiper-slide slide-1"><a href="javascript:;vold(0)"><img
+                            src="picture/5d8b155abab4d.jpg"></a></div>
+            </div>
+            <!-- 焦点 -->
+            <div class="bottom-nav">
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+  <div class="w-hp">
+  <div class="w-hpt">TIFFANISS BRAND STORY</div>
+  <div class="w-hps">TIFFANISS.QUEEN PHOTOGRAPHY</div>
+  <button id="bub">品牌介绍</button>
+  <button><a href="#footer">联系我们</a></button>
+  </div>
+  <div class="w-photo">
+    <img src="./picture/1570957514666493.jpg" alt="">
+    <img src="./picture/1569475027501128.jpg" alt="">
+    <img src="./picture/1564641181122057.jpg" alt="">
+    <img src="./picture/1564641187696289.jpg" alt="">
+    <img src="./picture/1564641193770477.jpg" alt="">
+    <img src="./picture/1564641209904775.jpg" alt="">
+    <img src="./picture/1564641216253322.jpg" alt="">
+    <img src="./picture/1564641231327781.jpg" alt="">
+    <img src="./picture/1564641250654581.jpg" alt="">
+    <img src="./picture/1564641276135848.jpg" alt="">
+    <img src="./picture/1564641295427696.jpg" alt="">
+    <img src="./picture/1564641885931104.jpg" alt="">
+    <img src="./picture/1564641896991725.jpg" alt="">
+    <img src="./picture/1564641915847281.jpg" alt="">
+    <img src="./picture/1564641924661990.jpg" alt="">
+    <img src="./picture/1564641948978211.jpg" alt="">
+    <img src="./picture/1564641956342843.jpg" alt="">
+    <img src="./picture/1564641965225956.jpg" alt="">
+    <img src="./picture/1564641972573062.jpg" alt="">
+    <img src="./picture/1564642001502994.jpg" alt="">
+  </div>
+  <footer class="queen-footer" id="footer"></footer>
+
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.superslide.2.1.1.js"></script>
+  <script src="js/base.js"></script>
+  <script src="js/wz_tooltip.js"></script>
+  <script src="js/tab.js"></script>
+  <script src="js/tab.js"></script>
+  <script type="text/javascript" src="js/e395e8e693cd464a9703e902cd04e9b0.js"></script>
+  <script src="js/layer.js"></script>
+      <script type="text/javascript">
+          //创建和初始化地图函数：
+          function initMap() {
+              $(window).scrollTop(0);
+              createMap(); //创建地图
+              setMapEvent(); //设置地图事件
+              addMapControl(); //向地图添加控件
+              addMarker(); //向地图中添加marker
+          }
+  
+          //创建地图函数：
+          function createMap() {
+              var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+              var point = new BMap.Point(121.490066, 31.273576); //定义一个中心点坐标
+              map.centerAndZoom(point, 19); //设定地图的中心点和坐标并将地图显示在地图容器中
+              window.map = map; //将map变量存储在全局
+  
+          }
+  
+          //地图事件设置函数：
+          function setMapEvent() {
+              map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+              map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+              map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+              map.enableKeyboard(); //启用键盘上下左右键移动地图
+          }
+  
+          //地图控件添加函数：
+          function addMapControl() {
+              //向地图中添加缩放控件
+              var ctrl_nav = new BMap.NavigationControl({
+                  anchor: BMAP_ANCHOR_TOP_LEFT,
+                  type: BMAP_NAVIGATION_CONTROL_LARGE
+              });
+              map.addControl(ctrl_nav);
+          }
+  
+          //标注点数组
+          var markerArr = [{
+              title: "上海女王驾到婚纱摄影有限公司",
+              content: "上海虹口区甜爱支路17号",
+              point: "121.490067|31.273576",
+              isOpen: 1,
+              icon: {
+                  w: 40,
+                  h: 50,
+                  l: 0,
+                  t: 0,
+                  x: 6,
+                  lb: 15
+              }
+          }];
+          //创建marker
+          function addMarker() {
+              for (var i = 0; i < markerArr.length; i++) {
+                  var json = markerArr[i];
+                  var p0 = json.point.split("|")[0];
+                  var p1 = json.point.split("|")[1];
+                  var point = new BMap.Point(p0, p1);
+                  var iconImg = createIcon(json.icon);
+                  var marker = new BMap.Marker(point, {
+                      icon: iconImg
+                  });
+                  var iw = createInfoWindow(i);
+                  var label = new BMap.Label(json.title, {
+                      "offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)
+                  });
+                  marker.setLabel(label);
+                  map.addOverlay(marker);
+                  label.setStyle({
+                      borderColor: "#808080",
+                      color: "#333",
+                      cursor: "pointer"
+                  });
+  
+                  (function () {
+                      var index = i;
+                      var _iw = createInfoWindow(i);
+                      var _marker = marker;
+                      _marker.addEventListener("click", function () {
+                          this.openInfoWindow(_iw);
+                      });
+                      _iw.addEventListener("open", function () {
+                          _marker.getLabel().hide();
+                      })
+                      _iw.addEventListener("close", function () {
+                          _marker.getLabel().show();
+                      })
+                      label.addEventListener("click", function () {
+                          _marker.openInfoWindow(_iw);
+                      })
+                      if (!!json.isOpen) {
+                          label.hide();
+                          _marker.openInfoWindow(_iw);
+                      }
+                  })()
+              }
+          }
+          //创建InfoWindow
+          function createInfoWindow(i) {
+              var json = markerArr[i];
+              /*var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");*/
+              var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + '蒂凡尼斯' + "'>" + '蒂凡尼斯' +
+                  "</b><div class='iw_poi_content'>" + json.content + "</div>");
+              return iw;
+          }
+          //创建一个Icon
+          function createIcon(json) {
+              var icon = new BMap.Icon("/Public/images/map_dw.png", new BMap.Size(json.w, json.h), {
+                  imageOffset: new BMap.Size(-json.l, -json.t),
+                  infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+                  offset: new BMap.Size(json.x, json.h)
+              })
+              return icon;
+          }
+  
+          function layerMap() {
+              layer.open({
+                  type: 1,
+                  title: false,
+                  closeBtn: 1,
+                  area: '985px',
+                  shadeClose: true,
+                  content: $('#hiddenmap')
+              });
+              initMap();
+          }
+  
+          function mapsearch() {
+              var start = $("#startaddress").val();
+              //console.log(start.length);
+              if (!start || start.length < 5) {
+                  alert("请输入您的详细地址");
+                  return;
+              }
+              map.clearOverlays();
+              var end = "上海虹口区甜爱支路17号";
+              //三种驾车策略：最少时间，最短距离，避开高速
+              var routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME, BMAP_DRIVING_POLICY_LEAST_DISTANCE,
+                  BMAP_DRIVING_POLICY_AVOID_HIGHWAYS
+              ];
+              search(start, end, routePolicy[0]);
+          }
+  
+          function search(start, end, route) {
+              var driving = new BMap.DrivingRoute(map, {
+                  renderOptions: {
+                      map: map,
+                      autoViewport: true
+                  },
+                  policy: route
+              });
+              driving.search(start, end);
+          }
+      </script>
+
+</body>
+</html>

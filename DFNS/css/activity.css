@@ -1,0 +1,76 @@
+
+/* 最新活动区域 */
+.queen-activity{
+  margin-bottom: 40px;
+}
+.title{
+  padding: 110px 0 90px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  letter-spacing: 15px;
+  color: #333;
+}
+.title span{
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.newevent {
+  position: relative;
+}
+
+.newevent li {
+  width: 50%;
+}
+
+.newevent hr {
+  color: #ccc;
+}
+
+.newevent li:nth-of-type(1) {
+  margin-bottom: 40px;
+}
+
+.newevent li:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+.newevent li:nth-of-type(3) {
+  margin-top: 30px;
+}
+
+.newevent li:nth-of-type(4) {
+  margin-top: 30px;
+}
+
+.newevent li .word {
+  margin-left: 10px;
+}
+
+.newevent li h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.newevent li i {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.newevent li p {
+  font-size: 14px;
+}
+
+.newevent li a:hover h3 {
+  color: #c67e12;
+}
+
+.newevent li a:hover i {
+  color: #f60
+}
